@@ -1,0 +1,176 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #161B22;
+    border-bottom: 1px solid #1F6FEB;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1F6FEB;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #C9D1D9;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #1F6FEB;
+}
+
+.theme-toggle {
+    background-color: #1F6FEB;
+    color: #FFF;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: #4EA8DE;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #0D1117, #161B22);
+    color: #FFF;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #1F6FEB;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.hero .buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #1F6FEB;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .buttons button:hover {
+    background-color: #1F6FEB;
+    color: #FFF;
+}
+
+/* Clock Section */
+.clock {
+    padding: 50px;
+    text-align: center;
+    background-color: #161B22;
+    color: #C9D1D9;
+    border-top: 1px solid #1F6FEB;
+    border-bottom: 1px solid #1F6FEB;
+}
+
+.clock h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1F6FEB;
+}
+
+#time-remaining {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #161B22;
+    color: #C9D1D9;
+    font-size: 0.9rem;
+    border-top: 1px solid #1F6FEB;
+}
+
+/* Chatbox */
+.chatbox {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #161B22;
+    border: 1px solid #1F6FEB;
+    border-radius: 10px;
+    padding: 20px;
+    color: #C9D1D9;
+}
+
+.chatbox #messages {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #0D1117;
+    border: 1px solid #1F6FEB;
+    border-radius: 5px;
+}
+
+.chatbox input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #1F6FEB;
+    border-radius: 5px;
+    background-color: #0D1117;
+    color: #C9D1D9;
+}
+
+.chatbox button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1F6FEB;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chatbox button:hover {
+    background-color: #4EA8DE;
+}
+
+
+
